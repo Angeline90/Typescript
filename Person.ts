@@ -4,19 +4,11 @@ class Person {
     this.age = age;
   }
 
-  getName(): string {
-    return this.name;
-  }
-
-  getAge(): number {
-    return this.age;
-  }
-
-  tellMyName():string {
+  tellMyName(): string {
     return `I am ${this.name}`;
   }
 
-  tellMyAge():string {
+  tellMyAge(): string {
     return `I am ${this.age} years old`;
   }
 }

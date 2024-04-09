@@ -6,12 +6,6 @@ class Person {
         this.name = name;
         this.age = age;
     }
-    getName() {
-        return this.name;
-    }
-    getAge() {
-        return this.age;
-    }
     tellMyName() {
         return `I am ${this.name}`;
     }
